@@ -1,0 +1,50 @@
+function generateHTML(data) {
+  return `<!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+      body {
+        background: linear-gradient(90deg, hsla(186, 66%, 40%, 1) 0%, hsla(188, 78%, 69%, 1) 100%);
+        margin: 3%;
+        font-family: sans-serif;
+      }
+  
+      body>section>ul#myLikes>li {
+        background: #f4f0f059;
+      }
+    </style>
+  </head>
+  
+  <body class="container-fluid text-center">
+    <header>
+      <h1 class="display-1 p-4">Hello my name is ${data.name} !</h1>
+    </header>
+  
+    <h2 class="p-4">I am from ${data.location}</h2>
+  
+    <section class="likes row">
+      <ul class="list-group text-start p-4 col-10" id="myLikes">
+        <li class="list-group-item">My favorite hobby: <strong>${data.hobby}</strong></li>
+        <li class="list-group-item">I love <strong>${data.food}</strong></li>
+        <li class="list-group-item">Here is my github username: <strong>${data.username}</strong></li>
+        <li class="list-group-item">This is the link to my LinkedIn: <strong>${data.url}</strong></li>
+  
+      </ul>
+  
+  
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+  </body>
+  
+  </html>`;
+}
+
+module.exports = generateHTML;

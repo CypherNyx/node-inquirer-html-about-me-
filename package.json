@@ -1,0 +1,22 @@
+{
+  "name": "mod_09_mini_project",
+  "version": "1.0.0",
+  "description": "this is a html about me generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "tets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
