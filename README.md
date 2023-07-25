@@ -8,7 +8,7 @@ This is a node command line tool that generates an html about me page based on u
 
 ## ScreenCaptures
 <br><br>
-[Here is a link to a SAMPLE of a generated page ➡️](url)
+[SAMPLE of a generated page ➡️](https://github.com/CypherNyx/node-inquirer-html-about-me-/blob/main/assets/SAMPLE-about-me.html)
 <br><br>
 
 ![prompts](./assets/screencapture-prompts.png)
@@ -35,3 +35,13 @@ node index.js
 3. Answer the prompted questions about your application repository.
 4. Once you have provided all the required information, the application will generate a file named about-me.html in the same directory with the appropriate sections and content.
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  https://opensource.org/licenses/MIT 
+
+## Questions
+If you have any questions or need further assistance, you can reach me via the following:
+
+  GitHub: [Dahlia Guido's GitHub](https://github.com/CypherNyx) <br>
+  Email: dguido.dev@gmail.com
